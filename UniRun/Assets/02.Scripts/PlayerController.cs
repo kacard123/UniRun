@@ -130,5 +130,14 @@ public class PlayerController : MonoBehaviour
         }
 
     }
+    // 충돌! 유니티! 유니티에서 충돌은 굉장히 다양하게 사용된다.
+    // 충돌을 크게 두가지로 구분한다.
+    // 1.OnCollision 계열 - Enter, Stay, Exit
+    // - OnCollision 계열은 두 콜라이더 끼리의 충돌에서 
+    // 단 하나도 isTrigger가 체크가 되어 있지 않은 경우.
+    // 2.OnTrigger계열 - Enter, Stay, Exit
+    // - OnTrigger계열은 단 하나라도 isTrigger가 체크가 되어 있을 때 사용
+
 }
+
 
